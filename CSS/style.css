@@ -1,0 +1,359 @@
+/* RESETEO UNIVERSAL*/
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/*article,figcaption,figure,footer,hgroup,nav,section{
+	display: block;
+}*/
+
+body{
+	background: #212121 url(../IMAGENES/fondo.jpg);/* para poner una imagen de fondo*/
+    color: #FFF;
+    font-family: Helvetica,verdana,Arial;
+    font-size: 1em;/*para el taño de la letra de menu*/
+}
+a{
+	color: #FFF;  /* para los colores de las letras del menu*/
+	font-weight: bold;
+	text-decoration: none;/*para kitar el subrrayado el hiperbinculo del menu */
+}
+a{
+	color: #000000;  /* para los colores de las letras del menu*/
+	font-weight: bold;
+	text-decoration: none;/*para kitar el subrrayado el hiperbinculo del menu */
+}
+a:hover{     /* para k se vea la selecccion de menu*/
+    color: #FC7C3D
+}
+
+
+
+header,section#contenido,footer{    /*  para indicar un color de fondo en el principio*/
+ background: rgba(150,150,0,0.7);     /*FONDO COLOR VERDE FUERA DE */
+ margin: 0 auto;
+ max-width: 90%;
+ text-align: center; /*que centre el texto */
+
+}
+header h1,nav{
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+nav ul{
+	list-style: none;
+}
+nav li{
+	display:inline-block;
+	padding: 0.25em;               /* para dar la separacion del menu*/
+	vertical-align: top;
+}
+nav a{  /*barra navegacion*/
+	background: #FFF;                  /*para dar colores a los botones */
+	border: 0.1em solid #FC7C3D;
+	border-radius: 0.25em;
+	box-shadow: 0 0 10px 0.5px;
+	color: #5E0525;
+	display: block;
+	font-family: helvetica ,verdana;
+	font-size: 1.2em;
+	padding: 0.2em;
+	--webkit-transition:all 0.5s ease-in;           /*transicion de botones*/
+	transition:all 0.5s ease-in;
+}
+nav a:hover{
+   background: #FC7C3D;         
+   border: 0.1em solid #5E0525;
+   border-radius: 0.25em;
+   color: #FFF;
+   --webkit-transition:all 0.5s ease-out;           /*para efecto encender los botones*/
+	transition:all 0.5s ease-out;
+}
+figcaption{
+	font-size: 0.85em;
+	padding: 0.25em;
+	text-align: center;
+}
+h2,h3{
+	color: #212121;
+	font-family: Arial,Helvetica,verdana;
+}
+h3{
+	background: #e2e7f1;
+	border-radius: 1em;
+	box-shadow: 0.25em 0.25em rgba(255,153,0,0.5);
+	margin-bottom: 0.5em;
+	padding-left: 0.25em;
+}
+/*estilo*/
+section#principal,aside{
+	background: #5E0525;
+	border-radius: 0.4em;
+	box-shadow: 0 0 10px 0.5px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 0.25em;
+	max-width: 100%;
+	padding: 0.25;
+	vertical-align: top;
+	width: 65%;
+}
+
+article#slider{
+	height: 10%;
+	border-radius: 0.5em;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: center;
+	overflow: hidden;
+	width: 95%;
+}
+
+aside {
+	width: 30%;
+}
+
+section#productos-destacados{
+	margin: 0 auto; /*formato a capa*/
+	width: 100%;
+
+}
+
+article#producto1,article#producto2,article#producto3{
+	background: #F1F1F1;  /*colro fondo 3 productos*/
+	border: 0.3em solid #FC7C3D;
+	border-radius: 0.5em;
+	max-width: 90%;
+	min-height: 300px;   /*minimo alto*/
+	padding: 0.5;
+	text-align: justify;
+	width: 55%;
+	color:#212121;
+	display: inline-block;  /*ALINEA IMAGENES DEL MARCO*/
+	margin-bottom: 0.25em;
+
+}
+article#producto1,article#producto2,article#producto3{
+	width: 30.55%;  /*AJUSTA IMAGENES MAS PEQUEÑAS DENTRO DEL MARCO*/
+	vertical-align: top;
+	text-align: center;	
+}
+
+/*FORMATO PIE DE PAGINA*/
+footer{
+	background: rgba(0, 99, 32, 255);
+	color: #FFF;
+	font-size: 0.85em;   /*tamaño letra*/
+	padding: 0.75em;
+
+}
+/*de los productos de MENU ACERCA*/
+article#mision_vision{
+	background: #F1F1F1;
+	border: 0.3em solid #FC7C3D;
+	border-radius: 0.5em;
+	max-width: 90%;   /*maximo ancho*/
+	min-height: 300px;  /*maximo pixeles*/
+	padding: 0.5;
+	text-align: center;
+	width: 55%;
+	color: #212121;
+	display: inline-block;
+	margin-bottom: 0.25em;
+
+}
+
+/*de los productos de MENU PRODUCTOS*/
+article#prod1,article#prod2,article#prod3,article#prod4,
+article#prod5,article#prod6,article#prod7,article#prod8{   
+	width: 30.55%;   /*cuadrito*/
+	vertical-align: top;
+	text-align: justify;
+	background: #F1F1F1;  /*colro fondo 3 productos*/
+	border: 0.3em solid #FC7C3D;
+	border-radius: 0.5em;
+	max-width: 20%;
+	min-height: 300px;   /*minimo alto*/
+	padding: 0.5;
+	text-align: justify;
+	width: 55%;
+	color:#212121;
+	display: inline-block;  /*ALINEA IMAGENES DEL MARCO*/
+	margin-bottom: 0.25em;
+}
+
+/*MENU DE LA DERECHA OFERTAS*/
+
+article#productosOferta{
+margin: 0 auto;
+width: 100%;
+
+}
+
+/*MENU SUCURSALES*/
+
+article#sucursal1,article#sucursal2,article#sucursal3{   
+	width: 100%;   /*cuadrito*/
+	vertical-align: top;
+	text-align: justify;
+	background: #F1F1F1;  /*colro fondo 3 productos*/
+	border: 0.3em solid #FC7C3D;
+	border-radius: 0.5em;
+	max-width: 20%;
+	min-height: 200px;   /*minimo alto*/
+	padding: 0.5;
+	text-align: center;   /*alineacion de la letra*/
+	font-size: 0.8em;   /*tamaño letra*/
+	width: 100%;
+	color:#212121;
+	display: inline-block;  /*ALINEA IMAGENES DEL MARCO*/
+	margin-bottom: 0.25em;
+
+}
+
+/*MENU CONTACTOS*/
+
+h4#Titulo_Contactos{
+	text-align: center;
+	font-size: 16pt;
+	color: #5E0525;
+
+}
+article#logos{
+	text-align: center; /*mueve logos a la derecha*/
+}
+/*	FORMA DEL PARRAFO*/
+article#Parrafo_Contacto{
+	background: #FFF;
+	border-radius: 0.2em;
+	box-shadow: 0 0 10px 0.5px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 0.24em;
+	max-width: 100%;
+	padding: 0.25;
+	vertical-align: top;
+	width: 40%; /*	cuadro blanco logos youtube etc*/
+	border: 0.1em solid #5E0525;
+	border-radius: 0.5em;
+	text-align: center;
+	color: #5E0525;
+
+}
+/*	capa de mapa*/
+aside{
+	width: 30%;
+}
+aside#mapa{
+	margin: 0 auto;
+	width: 30%;
+	height: 400px;
+
+
+}
+/*	formulario contacto*/
+input#txtNombre,input#txtEmail,input#txtAsunto,
+textarea#txtComentario{
+
+background: #FFF;
+	color: #000000;
+	font-family: Arial,Helvetica,verdana;
+	width: 300px;
+	height: 25px;
+	font-size: 12pt;
+	text-align: center;
+}
+/*	boton FORMATO (formulario)*/
+input#envio_comentario{
+	font-size: 10px;
+	font-family: Verdana,Helvetica;
+	font-weight: bold;
+	color: white;
+	background: #FC7C3D;
+	border: 0px;
+	width: 90px;
+	height: 30px;
+
+}
+
+/*	inicio secion (formulario*/
+	form#formulario_sesion{
+		background: #e2e7f1;
+		border-radius: 0.2em;
+		box-shadow: 0 0 10px 0.5px; /*	sombra contorno*/
+		display: inline-block;
+		margin: 0 auto;
+		margin-bottom: 0.25em;
+		max-width: 100%;
+		padding: 0.25;
+		vertical-align: top;
+		width: 65%;
+		border: 0.1em solid#5E0525;
+		border-radius: 0.5em;
+		text-align: justify;
+		color: #5E0525;
+	}
+/*	estilo formulario cajas*/
+input#txtUsuario,input#txtPassword{
+	background: #5E0525;
+	color: #FFF;
+	font-family: Arial,Helvetica,Verdana;
+	width: 300px; /*	ancho*/
+	height: 25px;
+	font-size: 12pt;
+
+}
+/*	boton Inicia_Sesion.php*/
+
+input#enviar{
+	font-size: 10px;
+	font-family: Arial,Helvetica,Verdana;
+	font-weight: bold;
+	color: white;
+	background: #FC7C3D;
+	border: 0px;
+	width: 90px;
+	height: 30px;
+}
+
+
+
+
+/*	formulario REGISTRO USUARIOS*/
+input#txtNombreU,input#txtPassword2,input#txtConfirmaP,input#txtEmail2{
+	background: #FFF;
+	color: #000000;
+	font-family: Arial,Helvetica,verdana;
+	width: 300px;
+	height: 25px;
+	font-size: 12pt;
+	text-align: center;
+}
+/*	boton ENVIAR ::::Registro_Usuarios.php*/
+
+input#envio_registro{
+	font-size: 10px;
+	font-family: Arial,Helvetica,Verdana;
+	font-weight: bold;
+	color: white;
+	background: #FC7C3D;
+	border: 0px;
+	width: 90px;
+	height: 30px;
+}
+
+/*	formulario pedido*/
+input#txtNombreP,textarea#txtDescripcion,input#txtPrecio,
+input#txtCantidad{
+
+	background: #FFF;
+	color: #FC7C3D;
+	font-family: Arial,Helvetica,Verdana;
+	width: 300px; /*	ancho*/
+	height: 25px;
+	font-size: 12pt;
+}
+
