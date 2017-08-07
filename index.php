@@ -117,7 +117,7 @@
 
 </section><!--fin contenido-->
 <footer>
-	(C) Copyright alls Reservet WebMaster Kimberly Edith Calderon Ocampo 2016
+	(C) Copyright alls Reservet WebMaster Carlos Aviles Arredondo 2016
 </footer>
 
 </body>
